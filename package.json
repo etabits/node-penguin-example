@@ -1,0 +1,32 @@
+{
+  "name": "penguin-example",
+  "version": "1.0.0",
+  "description": "A Node.js (JavaScript) example of basic use for node-penguin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etabits/node-penguin-example.git"
+  },
+  "author": "Hasan Arous <hasan.arous@gmail.com> (http://www.etabits.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/etabits/node-penguin-example/issues"
+  },
+  "homepage": "https://github.com/etabits/node-penguin-example#readme",
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.13",
+    "penguin": "^0.4.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "async": "^3.1.0"
+  }
+}
