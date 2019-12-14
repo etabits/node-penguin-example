@@ -17,7 +17,6 @@ const app = express();
 const developmentMode = app.get('env') === 'development';
 
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
 
 try {
   const cookieParser = require('cookie-parser');
