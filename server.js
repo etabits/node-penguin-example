@@ -117,7 +117,9 @@ const admin = new penguin.Admin({
   }
 });
 
+admin.resLocals.statics.css.push('/admin/style.css');
 admin.resLocals.statics.js.push('//cdn.ckeditor.com/4.4.4/standard/ckeditor.js');
+admin.resLocals.statics.js.push('/admin/script.js');
 
 admin.setupApp(app);
 const port = process.env.PORT || 3000;
