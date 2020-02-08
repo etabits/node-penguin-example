@@ -11,6 +11,14 @@ userSchema = mongoose.Schema({
       label: 'E-Mail'
     }
   },
+  birthdate: {
+    type: Date,
+    $p: {
+      widgetTemplate: 'D-MM-YYYY',
+      display: 'e'
+    }
+
+  },
   password: {
     type: String,
     $p: {

@@ -15,6 +15,9 @@ schema = mongoose.Schema({
     type: Date,
     required: true
   },
+  publishAt: {
+    type: Date
+  },
   content: {
     type: String,
     required: true,
